@@ -1,0 +1,38 @@
+Week-3
+======
+import java.util.Scanner;
+
+public class Number1
+{
+  public static void main( String[] args )
+   {
+     Scanner input = new Scanner( System.in );
+     
+     int number1;
+     int number2;
+     int sum;
+     int diff;
+     int prod;
+     int quot;
+
+     System.out.print("Enter first number: ");
+     number1 = input.nextInt();
+
+     System.out.print("Enter second number: ");
+     number2 = input.nextInt();
+
+     sum = number1 + number2;
+     diff = number1 - number2;
+     prod = number1 * number2;
+     quot = number1 / number2;
+
+
+     System.out.printf("Sum is %d\n", sum);
+
+     System.out.printf("Different is %d\n", diff);
+
+     System.out.printf("Product is %d\n", prod);
+
+     System.out.printf("Quotient is %d\n", quot);
+   }
+}
