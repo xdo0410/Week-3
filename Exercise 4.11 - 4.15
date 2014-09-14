@@ -1,0 +1,43 @@
+Homework week 3
+4.11 When a Java program attempts to divide one integer by another, the result should yield in the integer division. The fractional part of the calculation is lost. To avoid that from happening you can type cast the divisor and the dividend to float
+
+4.12 Describe two ways in which control statements can be combined? 
+      The if..else double selection statement perform one action when the condition is true and a different action when the condition is false.
+      The while... repetition statement allows you to specify that a program should repeat an action while some condition remain true.
+      
+4.13 What type of repetition would be appropriate for calculating the sum of the first 100 positive integers?
+      Counter-controlled repetition would be appropriate for calculating the sum of the first 100 positive integers because the number of repetition is known in advance. The program that performs this task could use a while repetition statement with a counter variable that takes on the values 1 to 100. The program could then add the current counter value to the total variable in each repetition of the loop.
+      
+      What type of repetition would be appropriate for calculating the sum of an arbitrary number of positive integers?
+      Sentinel-controlled repetition would be appropriate for calculating the sum of an arbitrary number of positive integers. The program that performs this task could use a sentinel value of –1 to mark the end of data entry. The program could use a while repetition statement that totals positive integers from the user until the user enters the sentinel value.
+      
+4.14 Post Increment(n++) : First execute the statement then increase the value by one.
+     Pre Increment (++n) : First increase the value by one then execute the statement.
+     
+4.15 Identify and correct the errors in each of the following pieces of code.
+    a) if ( age >= 65 );
+        System.out.println( "Age greater than or equal to 65" );
+      else
+        System.out.println( "Age is less than 65 )";
+ The semicolon at the end of the if condition should be removed. The closing double
+quote of the second System.out.println should be inside the closing parenthesis.
+
+    b) int x = 1, total;
+      while ( x <= 10 )
+      {
+        total += x;
+        ++x;
+      }
+  The variable total should be initialized to zero.
+  
+    c) while ( x <= 100 )
+      total += x;
+      ++x;
+  The two statements should be enclosed in curly braces to properly group them into the body of the while; otherwise the loop will be an infinite loop.
+  
+    d) while ( y > 0 )
+      {
+      System.out.println( y );
+      ++y;
+  The ++ operator should be changed to --; otherwise the loop will be an infinite loop.
+The closing curly brace for the while loop is missing.
