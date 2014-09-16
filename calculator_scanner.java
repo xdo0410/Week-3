@@ -103,3 +103,5 @@ public class calculator_scanner {
         System.out.println("\nSum: " + nOne + " x " + nTwo + " = " + (nOne * nTwo));
     }
 }
+
+// Good job!
